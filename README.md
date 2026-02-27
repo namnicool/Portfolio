@@ -11,7 +11,6 @@
 Here is a link to my portfolio: <a href="https://namnicool.github.io/Portfolio/">NAMB Portfolio</a>
 You'll find my CV and other links there too!
 
-===================================
 (THIS README IS STILL UNDER CONSTRUCTION 🚧🚧
 
 💗 Thanks for stopping by! 💗
