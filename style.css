@@ -42,7 +42,7 @@ a:hover {
 /* ── 2-COLUMN LAYOUT ── */
 #profile-layout {
   display: grid;
-  grid-template-columns: 1fr 200px;
+  grid-template-columns: 1fr 300px;
   gap: 8px;
   align-items: start;
   padding: 4px 0;
@@ -166,7 +166,7 @@ a:hover {
 }
 
 /* ============================================================
-   SECTION HEADER & BODY (More About, Contact, etc.)
+   SECTION HEADER & BODY 
    ============================================================ */
 .section-header {
   background: linear-gradient(to bottom, #ff99bb, #ff6699);
@@ -187,7 +187,6 @@ a:hover {
   border: 2px solid #ff99bb;
   border-top: none;
   padding: 8px;
-  margin-bottom: 8px;
   align-items: center;
 }
 
@@ -208,6 +207,7 @@ a:hover {
   line-height: 1.6;
   color: #444;
   margin-bottom: 6px;
+  justify-content: center;
 }
 
 .about-me a {
@@ -224,59 +224,32 @@ a:hover {
 
 .section-body ul li {
   margin-bottom: 12px;
-  padding-bottom: 10px;
-  border-bottom: 1px dashed #ffb6c1;
+  padding-bottom: 20px;
+  border-bottom: 1px dashed #cc3366;
 }
 
 .section-body ul li:last-child {
   border-bottom: none;
-  margin-bottom: 0;
+  margin-bottom: 6px;
 }
 
 .section-body ul li h5 {
   color: #cc3366;
   font-size: 11px;
-  margin-bottom: 6px;
+  margin-bottom: 12px;
 }
 
 /* ── VIDEOS ── */
 .section-body video {
   display: block;
   max-width: 100%;
-  border: 2px solid #ffb6c1;
+  border: 2px solid #cc3366;
   border-radius: 3px;
   background: #000;
+  justify-content: center;
+  
 }
 
-/* ── CONTACT INFO ── */
-.contact-info p {
-  font-size: 11px;
-  color: #444;
-  line-height: 1.6;
-  margin-bottom: 8px;
-}
-
-.contact-info ul {
-  list-style: none;
-  padding: 0;
-}
-
-.contact-info ul li {
-  font-size: 11px;
-  color: #444;
-  margin-bottom: 5px;
-  padding: 3px 6px;
-  background: #fff0f5;
-  border-left: 3px solid #ff6699;
-}
-
-.contact-info ul li strong {
-  color: #cc3366;
-}
-
-.contact-info ul li a {
-  color: #cc3366;
-}
 
 /* ============================================================
    RIGHT COLUMN — Education & Skills boxes
@@ -297,8 +270,8 @@ a:hover {
 }
 
 .school-photo {
-  width: 52px;
-  height: 52px;
+  width: 102px;
+  height: 82px;
   background: linear-gradient(135deg, #ffb6c1, #ff6699);
   border: 1px solid #cc3366;
   margin: 0 auto 3px;
