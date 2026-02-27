@@ -76,7 +76,7 @@ a:hover {
 
 /* Generic padded content area */
 .profile-box .box-content {
-  padding: 6px 8px;
+  padding: 6px 6px;
   ;
 }
 
@@ -123,20 +123,21 @@ a:hover {
 .profile-card-left ul,
 .box-content ul {
   list-style: none;
-  padding: 0;
+  padding: 0px;
   margin: 0;
   display: flex;
   flex-direction: column;
 }
 
 .profile-card-left ul li {
-  margin-bottom: 5px;
+  margin-bottom: 1px;
+  width: 128px;
 }
 
 .profile-card-left ul li a {
-  font-size: 10px;
+  font-size: 12px;
   display: block;
-  padding: 2px 4px;
+  padding: 2px 2px;
   background: #ffe0f0;
   border: 1px solid #ffb6c1;
   border-radius: 2px;
